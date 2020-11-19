@@ -121,3 +121,24 @@ title = "Mon atelier AWS"
 weight = 2
 languageName = "Français"
 ```
+
+### Deploy using Amplify
+Use the following build spec
+
+```
+version: 1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - hugo --source workshop --destination ../public --quiet
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /public
+    files:
+      - '**/*'
+  cache:
+    paths: []
+```
+
