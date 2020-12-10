@@ -1,7 +1,6 @@
 +++
-title = "Content"
+title = "Hugo Learn Examples"
 chapter = true
-weight = 20
-pre = "<b>2. </b>"
+weight = 120
 +++
 Find out how to create and organize your content quickly and intuitively.

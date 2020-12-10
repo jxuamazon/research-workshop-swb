@@ -1,10 +1,11 @@
 +++
-title = "AWS Workshop Template"
+title = "AWS Service Workbench on AWS"
 chapter = true
 weight = 1
 +++
-This template is the default for creating workshop content for AWS Solutions Architecture. It runs on Hugo, is driven by Markdown, and provides an interactive experience for workshop attendees. The pages in this template provide examples for how to write your own content using the components available.
 
-{{% button href="https://issues.amazon.com/issues/create?template=f084dc94-e920-4d98-80f7-252d5cc7ce00" icon="fas fa-bug" %}}Report an issue{{% /button %}}
-{{% button href="mailto:aws-sa-customer-engagements@amazon.com" icon="fas fa-envelope" %}}Contact Event Outfitters{{% /button %}}
-{{% button href="https://w.amazon.com/bin/view/AWS/Teams/SA/Customer_Engagements/" icon="fas fa-graduation-cap" %}}Learn more{{% /button %}}
+{{< img "SWB Background.PNG" "Service Workbench" >}}
+
+Service Workbench on AWS is a cloud solution that enables IT teams to provide secure, repeatable, and federated control of access to data, tooling, and compute power that researchers need. With Service Workbench, researchers no longer have to worry about navigating cloud infrastructure. They can focus on achieving research missions and completing essential work in minutes, not months, in configured research environments.
+
+With Service Workbench, researchers can quickly and securely stand up research environments and conduct experiments with peers from other institutions. By automating the creation of baseline research setups, simplifying data access, and providing price transparency, researchers and IT departments save time, which they can reinvest in following cloud best practices and achieving research reproducibility.
